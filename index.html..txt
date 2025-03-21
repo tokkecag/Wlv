@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Włocławia - Klub Piłkarski</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#aktualnosci">Aktualności</a></li>
+                <li><a href="#druzyna">Drużyna</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#kibice">Kibice</a></li>
+                <li><a href="#statystyki">Statystyki</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="aktualnosci">
+            <h2>Aktualności</h2>
+            <p>Włocławia wygrała mecz z rywalem 3:1!</p>
+            <p>Następny mecz odbędzie się 25 marca.</p>
+        </section>
+
+        <section id="druzyna">
+            <h2>Drużyna</h2>
+            <ul>
+                <li>Jan Kowalski - Bramkarz</li>
+                <li>Adam Nowak - Obrońca</li>
+                <li>Marcin Zieliński - Napastnik</li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <img src="zdjecie1.jpg" alt="Zdjęcie z meczu">
+            <img src="zdjecie2.jpg" alt="Zdjęcie z treningu">
+        </section>
+
+        <section id="kibice">
+            <h2>Kibice</h2>
+            <p>Dołącz do naszego forum dyskusyjnego!</p>
+            <a href="https://example.com/forum">Przejdź do forum</a>
+        </section>
+
+        <section id="statystyki">
+            <h2>Statystyki</h2>
+            <table>
+                <tr>
+                    <th>Zawodnik</th>
+                    <th>Gole</th>
+                </tr>
+                <tr>
+                    <td>Marcin Zieliński</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Jan Kowalski</td>
+                    <td>5</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Włocławia</p>
+        <a href="https://facebook.com/wloclawia">Facebook</a>
+        <a href="https://twitter.com/wloclawia">Twitter</a>
+    </footer>
+</body>
+</html>
